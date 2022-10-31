@@ -21,14 +21,11 @@ const pricyColor = new Color("#d92929");
 
 const w = new ListWidget();
 w.backgroundColor=new Color("#222222");
-const now = new Date();
-
 w.spacing = 2;
 
-// debuxar a grafica
 addBars();
 
-let minText = w.addText(`Prezo minimo: ${minResponse.hour} (${minPrice}eur/kWh)`);
+let minText = w.addText(`Precio mínimo: ${minResponse.hour} (${minPrice}eur/kWh)`);
 minText.font = Font.blackSystemFont(10);
 
 Script.setWidget(w);
