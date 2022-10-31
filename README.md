@@ -7,3 +7,5 @@ Muestra un widget con la información del precio de la electricidad en cada tram
 - **Verde**: precio considerado como barato.
 - **Azul**: precio por debajo de la media diaria.
 - **Rojo**: precio no considerado barato ni por debajo de la media.
+
+Los datos provienen de la API pública de [preciodelaluz.org](https://preciodelaluz.org/).
